@@ -25,35 +25,14 @@ function Article({title, date="January 1, 1970", preview, minutes}){
             :
             bento.map(item=>item)
             }
+            &nbsp;
             {minutes}
-             &nbsp; min read
-            
+            &nbsp; min read
             </small>
             <p>{preview}</p>
         </article>
     )
 }
-
-// function displayCoffee(item,minutes){
-  
-//         let coffee=[]
-//         let total = Math.round(minutes/5)
-//         let i =0
-//         while(i < total){
-//             coffee.push(item)
-//         }
-//         coffee.map((item)=>{return item})
-// }
-
-// function displayBento(item, minutes){
-//     let bento = []
-//     let total = Math.round(minutes/10)
-//     let i = 0
-//     while(i < total){
-//         bento.push(item)
-//     }
-//     bento.map((item)=>{return item})
-// }
 
 
 export default Article
